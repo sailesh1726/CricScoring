@@ -1,0 +1,2 @@
+# CricScoring
+Cricket scoring application
