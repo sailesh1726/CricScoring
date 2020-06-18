@@ -1,1 +1,2 @@
+include ':StorageLibrary'
 include ':app', ':networklibrary'
