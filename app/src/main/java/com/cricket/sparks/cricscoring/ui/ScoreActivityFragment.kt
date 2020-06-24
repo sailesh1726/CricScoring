@@ -1,9 +1,10 @@
-package com.cricket.sparks.cricscoring
+package com.cricket.sparks.cricscoring.ui
 
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import com.cricket.sparks.cricscoring.R
 
 /**
  * A placeholder fragment containing a simple view.

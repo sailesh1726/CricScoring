@@ -3,9 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/CricScoring.iml" filepath="$PROJECT_DIR$/CricScoring.iml" group="CricScoring" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/StorageLibrary/StorageLibrary.iml" filepath="$PROJECT_DIR$/.idea/modules/StorageLibrary/StorageLibrary.iml" group="CricScoring/StorageLibrary" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="CricScoring/app" />
-      <module fileurl="file://$PROJECT_DIR$/networkLibrary/networkLibrary.iml" filepath="$PROJECT_DIR$/networkLibrary/networkLibrary.iml" group="CricScoring/networklibrary" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/StorageLibrary/storageLibrary.iml" filepath="$PROJECT_DIR$/.idea/modules/StorageLibrary/storageLibrary.iml" group="CricScoring/StorageLibrary" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/networkLibrary/networklibrary.iml" filepath="$PROJECT_DIR$/.idea/modules/networkLibrary/networklibrary.iml" group="CricScoring/networklibrary" />
     </modules>
   </component>
 </project>
