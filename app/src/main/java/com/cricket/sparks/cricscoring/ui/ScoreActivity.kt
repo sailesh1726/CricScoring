@@ -8,15 +8,23 @@ import androidx.appcompat.widget.Toolbar
 import android.view.View
 import android.view.Menu
 import android.view.MenuItem
+import androidx.lifecycle.ViewModelProvider
 import com.cricket.sparks.cricscoring.R
+import com.cricket.sparks.cricscoring.util.InjectorUtils
+import com.cricket.sparks.cricscoring.viewModel.ScoreViewModel
 
 class ScoreActivity : AppCompatActivity() {
+
+    private lateinit var scoreViewModel: ScoreViewModel
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_score)
         val toolbar = findViewById<View>(R.id.toolbar) as Toolbar
         setSupportActionBar(toolbar)
+
+        val factory = InjectorUtils.provideScoreViewModelFactory(application)
+        scoreViewModel = ViewModelProvider(this, factory).get(ScoreViewModel::class.java)
 
         val fab = findViewById<View>(R.id.fab) as FloatingActionButton
         fab.setOnClickListener { view ->

@@ -3,7 +3,11 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/CricScoring.iml" filepath="$PROJECT_DIR$/CricScoring.iml" group="CricScoring" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/storageLibrary/CricScoring-StorageLibrary.iml" filepath="$PROJECT_DIR$/.idea/modules/storageLibrary/CricScoring-StorageLibrary.iml" group="CricScoring/StorageLibrary" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/CricScoring-app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/CricScoring-app.iml" group="CricScoring/app" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/networkLibrary/CricScoring-networklibrary.iml" filepath="$PROJECT_DIR$/.idea/modules/networkLibrary/CricScoring-networklibrary.iml" group="CricScoring/networklibrary" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/StorageLibrary/StorageLibrary.iml" filepath="$PROJECT_DIR$/.idea/modules/StorageLibrary/StorageLibrary.iml" group="CricScoring/StorageLibrary" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/StudioProjects-CricScoring.iml" filepath="$PROJECT_DIR$/.idea/modules/StudioProjects-CricScoring.iml" group="CricScoring" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="CricScoring/app" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/networkLibrary/networklibrary.iml" filepath="$PROJECT_DIR$/.idea/modules/networkLibrary/networklibrary.iml" group="CricScoring/networklibrary" />
     </modules>
